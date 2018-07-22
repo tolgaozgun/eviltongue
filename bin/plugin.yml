@@ -1,0 +1,9 @@
+name: "EvilTongue"
+author: Progr4mm3r
+main: me.tolgaozgun.eviltongue.TongueMain
+version: 1.0
+commands:
+   eviltongue:
+      usage: "/<command>"
+      aliases: [et,etongue,evilt]
+      description: "EvilTongue Main Command"
