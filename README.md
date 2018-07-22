@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+_Life or death, all depends on a simple twist of tongue!_
 
-You can use the [editor on GitHub](https://github.com/tolgaozgun/eviltongue/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Evil Tongue is a fun plugin created for both Bukkit and Spigot!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever a person types a specific hidden string, they become the "Chosen One" and gain the ability to kill anyone by typing their nickname in the chat! There are some limitations when this player loses this ability, but you can change that via customizable config!
 
-### Markdown
+## Features:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Saves the last "Chosen One" to config, so it does not get affected by reload or stop/start 
+- Changable many settings
+- Permission supported!
+- Easy to manage config!
+- Log included, you can see who did what!
 
-```markdown
-Syntax highlighted code block
+## Commands:
 
-# Header 1
-## Header 2
-### Header 3
+**/eviltongue** [/et, /etongue, /evilt]
+Permission: eviltongue.help
+Description: Displays the help page.
 
-- Bulleted
-- List
+**/eviltongue help** [/et help, /etongue help, /evilt help]
+Permission: eviltongue.help
+Description: Displays the help page.
 
-1. Numbered
-2. List
+**/eviltongue update** [/et update, /etongue update, /evilt update]
+Permission: Can only be used via console for security reasons.
+Description: Updates the plugin if a newer version is available. If auto update-check is enabled from the config, server will check for new updates on every start and notify via console.
 
-**Bold** and _Italic_ and `Code` text
+**/eviltongue reload** [/et reload, /etongue reload, /evilt reload]
+Permission: eviltongue.reload
+Description: Reloads the plugin configuration. Recommended instead of "/reload".
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tolgaozgun/eviltongue/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Screenshots
+![Screenshot One](https://www.spigotmc.org/attachments/helppage-png.356296/)
+![Screenshot Two](https://www.spigotmc.org/attachments/chosen-png.356295/)
+![Screenshot Three](https://www.spigotmc.org/attachments/unchosen-png.356298/)
+![Screenshot Four](https://www.spigotmc.org/attachments/killed-png.356297/)
+![ScreenShot Five](https://www.spigotmc.org/attachments/untitled-png.356299/)
