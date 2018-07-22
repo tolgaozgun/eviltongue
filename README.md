@@ -14,25 +14,25 @@ Whenever a person types a specific hidden string, they become the "Chosen One" a
 
 ## Commands:
 
-**/eviltongue** [/et, /etongue, /evilt]
-Permission: eviltongue.help
-Description: Displays the help page.
+**/eviltongue** [/et, /etongue, /evilt]<br>
+Permission: eviltongue.help<br>
+Description: Displays the help page.<br>
 
-**/eviltongue help** [/et help, /etongue help, /evilt help]
-Permission: eviltongue.help
-Description: Displays the help page.
+**/eviltongue help** [/et help, /etongue help, /evilt help]<br>
+Permission: eviltongue.help<br>
+Description: Displays the help page.<br>
 
-**/eviltongue update** [/et update, /etongue update, /evilt update]
-Permission: Can only be used via console for security reasons.
-Description: Updates the plugin if a newer version is available. If auto update-check is enabled from the config, server will check for new updates on every start and notify via console.
+**/eviltongue update** [/et update, /etongue update, /evilt update]<br>
+Permission: Can only be used via console for security reasons.<br>
+Description: Updates the plugin if a newer version is available. If auto update-check is enabled from the config, server will check for new updates on every start and notify via console.<br>
 
-**/eviltongue reload** [/et reload, /etongue reload, /evilt reload]
-Permission: eviltongue.reload
-Description: Reloads the plugin configuration. Recommended instead of "/reload".
+**/eviltongue reload** [/et reload, /etongue reload, /evilt reload]<br>
+Permission: eviltongue.reload<br>
+Description: Reloads the plugin configuration. Recommended instead of "/reload".<br>
 
 ## Screenshots
-![Screenshot One](https://www.spigotmc.org/attachments/helppage-png.356296/)
-![Screenshot Two](https://www.spigotmc.org/attachments/chosen-png.356295/)
-![Screenshot Three](https://www.spigotmc.org/attachments/unchosen-png.356298/)
-![Screenshot Four](https://www.spigotmc.org/attachments/killed-png.356297/)
-![ScreenShot Five](https://www.spigotmc.org/attachments/untitled-png.356299/)
+![Screenshot One](https://www.spigotmc.org/attachments/helppage-png.356296/)<br>
+![Screenshot Two](https://www.spigotmc.org/attachments/chosen-png.356295/)<br>
+![Screenshot Three](https://www.spigotmc.org/attachments/unchosen-png.356298/)<br>
+![Screenshot Four](https://www.spigotmc.org/attachments/killed-png.356297/)<br>
+![ScreenShot Five](https://www.spigotmc.org/attachments/untitled-png.356299/)<br>
