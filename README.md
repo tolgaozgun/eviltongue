@@ -31,8 +31,8 @@ Permission: eviltongue.reload<br>
 Description: Reloads the plugin configuration. Recommended instead of "/reload".<br>
 
 ## Screenshots
-![Screenshot One](https://www.spigotmc.org/attachments/helppage-png.356296/)<br>
-![Screenshot Two](https://www.spigotmc.org/attachments/chosen-png.356295/)<br>
-![Screenshot Three](https://www.spigotmc.org/attachments/unchosen-png.356298/)<br>
-![Screenshot Four](https://www.spigotmc.org/attachments/killed-png.356297/)<br>
+![Screenshot First](https://www.spigotmc.org/attachments/chosen-png.356295/)<br>
+![Screenshot Two](https://www.spigotmc.org/attachments/unchosen-png.356298/)<br>
+![Screenshot Three](https://www.spigotmc.org/attachments/killed-png.356297/)<br>
+![Screenshot Four](https://www.spigotmc.org/attachments/helppage-png.356296/)<br>
 ![ScreenShot Five](https://www.spigotmc.org/attachments/untitled-png.356299/)<br>
