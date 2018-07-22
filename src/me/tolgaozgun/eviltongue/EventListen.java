@@ -7,18 +7,18 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 import me.tolgaozgun.eviltongue.util.ConfigHandler;
 import me.tolgaozgun.eviltongue.util.Logger;
 import me.tolgaozgun.eviltongue.util.Settings;
-import net.md_5.bungee.api.ChatColor;
 
 public class EventListen implements Listener {
 
+	@SuppressWarnings("deprecation")
 	@EventHandler
-	public void onMessage(AsyncPlayerChatEvent e) {
+	public void onMessage(PlayerChatEvent e) {
 		if (Settings.TAGGED_PLAYER == null) {
 			Player p = e.getPlayer();
 			if (p.hasPermission(Settings.USE_PERMISSION)) {
@@ -38,12 +38,12 @@ public class EventListen implements Listener {
 					String message = e.getMessage();
 					for (Player p2 : Bukkit.getOnlinePlayers()) {
 						if (message.contains(p2.getDisplayName())) {
-							p2.setHealth(0);
 							Logger.logKilled(uuid, p2.getUniqueId());
 							if (Settings.ISDEATH_MESSAGE) {
-								String show = Settings.DEATH_MESSAGE.replace("%player%", p.getDisplayName());
+								String show = Settings.DEATH_MESSAGE.replace("%player%", p2.getDisplayName());
 								Settings.warnAllSpecial(show, p2, Settings.DEATHP_MESSAGE);
 							}
+							p2.setHealth(0);
 							return;
 						}
 
